@@ -48,7 +48,7 @@ iFashion:
   data_path: '../data/cold'
   batch_size_train: 2048
   batch_size_test: 2048
-  topk: [10, 20, 40, 80]
+  topk: [1, 2, 10, 20, 40, 80]
 
   embedding_size: 64
   num_layers: 1
@@ -63,5 +63,5 @@ iFashion:
 
   max_temp: 10000
 
-  epochs: 100
-  test_interval: 5
+  epochs: 50
+  test_interval: 1
