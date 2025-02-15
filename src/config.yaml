@@ -45,7 +45,7 @@ NetEase:
 
 
 iFashion:
-  data_path: '../data/cold_u'
+  data_path: '../data/cold'
   batch_size_train: 2048
   batch_size_test: 2048
   topk: [5, 10, 20, 40]
